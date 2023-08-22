@@ -104,8 +104,9 @@ nav button a {
 
 .row {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .about-col-1 {
@@ -131,7 +132,7 @@ nav button a {
 
 
 .about-col-1 img {
-    width: 100%;
+    width: 50%;
     border-radius: 15px;
     margin-top: 30px;
 }
