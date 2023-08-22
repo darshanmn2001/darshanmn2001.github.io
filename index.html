@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <h1 class="logo">Portfolio</h1> -->
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button><a href="https://www.linkedin.com/in/darshan-m-n/" target="_blank">Hire Me</a></button>
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+
+            </nav>
+
+        </div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/dmn.jpg">
+                </div>
+                <div class="about-col-2">
+                    <div class="text1">
+                        <h1>Hi, I'm <span>Darshan M N</span></h1>
+                        <p>Computer Science Graduate | 2023 <br>
+                            Open to new opportunities to work <br>
+                            Passionate about solving complex problems through innovative technology solutions.
+                        </p>
+                    </div>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>2023</span><br>University B D T College Of Engineering - Davangere<br>CSE</li>
+                            <li><span>2019</span><br>S Nijaligappa PU College - Hosadurga</li>
+                            <li><span>2017</span><br>General Kariyappa School - Hosadurga </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------SERVICES---------- -->
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="skills-list">
+                <div>
+                    <img width="144" height="144" src="https://img.icons8.com/fluency/144/java-coffee-cup-logo.png"
+                        alt="java-logo" />
+                    <h2>Core Java</h2>
+                    <p>Basics Of Java. <br>OOPS Concepts. <br>Arrays and Strings.</p>
+                </div>
+                <div>
+                    <img width="144" height="144" src="https://img.icons8.com/color/100/code.png"
+                        alt="web development" />
+                    <h2>Web Development</h2>
+                    <p>HTML. <br>CSS. <br>Java Script.</p>
+
+                </div>
+                <div>
+                    <!-- <i class="fa-solid fa-crop-simple"></i> -->
+                    <img width="144" height="144" src="https://img.icons8.com/color/144/python--v1.png"
+                        alt="python-logo" />
+                    <h2>Python</h2>
+                    <p>Basics of Python. <br>Tuples List Dictionary. <br>Flask Framework.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------Projects--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Acadamic Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/project1.png" alt="">
+                    <div class="layer">
+                        <h2>Online Shopping Managment System</h2>
+                        <p>"Discover Seamless Shopping: Experience the Future of Online Commerce with Our Advanced
+                            E-Commerce Platform. Explore an Extensive Product Catalog, Effortless Checkout, Real-Time
+                            Order Tracking, and Vendor Management Tools. Elevate Your Shopping Journey Today!"</p>
+                        <a href="https://github.com/darshanmn2001/Online-Shopping-Management-System"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/project2.png" alt="">
+                    <div class="layer">
+                        <h2>Animation of Data Structure Concept Using Python</h2>
+                        <p>It's an interactive web application aimed at visualizing and animating various data
+                            structures. The primary objective was to provide a visually engaging and intuitive way for
+                            computer science students to grasp complex data structures.
+                        </p>
+                        <a href="https://github.com/darshanmn2001/animation_ds"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/project3.png" alt="">
+                    <div class="layer">
+                        <h2>Pneumonia Prediction System using Deep Learning on python</h2>
+                        <p>This project aims to develop a machine learning model using Python to detect pneumonia
+                            disease from chest X-rays, the model will be trained to accurately classify X-ray images as
+                            either pneumonia-infected or normal.
+                        </p>
+                        <a href="https://github.com/darshanmn2001/Pneumonia-Prediction-System"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/darshanmn2001" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><a href="mailto:mndarshan01@gmail.com"><i
+                                class="fas fa-paper-plane"></i>mndarshan01@gmail.com</a></p>
+                    <p><a href="tel:8088566924"><i class="fas fa-phone-square-alt"></i>8088566924</a></p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/darshan-m-n/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="mailto:mndarshan01@gmail.com">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
+
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+
+        // JavaScript for handling the mobile navigation menu
+        document.querySelector('.fas.fa-bars').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('show');
+            // Hide the hamburger icon and show the close icon
+            document.querySelector('.fas.fa-bars').style.display = 'none';
+            document.querySelector('.fas.fa-times').style.display = 'block';
+        });
+
+        document.querySelector('.fas.fa-times').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.remove('show');
+            // Hide the close icon and show the hamburger icon
+            document.querySelector('.fas.fa-times').style.display = 'none';
+            document.querySelector('.fas.fa-bars').style.display = 'block';
+        });
+
+
+    </script>
+</body>
+
+</html>
