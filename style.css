@@ -106,7 +106,7 @@ nav button a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .about-col-1 {
