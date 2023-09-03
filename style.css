@@ -450,4 +450,10 @@ nav .fas.fa-bars {
         display: block;
         margin: 25px;
     }
+     .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
 }
