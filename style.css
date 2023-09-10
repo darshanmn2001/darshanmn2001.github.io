@@ -12,7 +12,7 @@ body {
 
 #header {
     width: 100%;
-    height: 10vh;
+/*     height: 10vh; */
     background: transparent;
     backdrop-filter: blur(10px);
     position: fixed;
@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-    padding: 10px 5%;
+    margin: 1% 5%;
 }
 
 nav {
